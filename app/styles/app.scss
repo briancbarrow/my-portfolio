@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Bitter|Poppins|Titillium+Web');
+
+$main-color: #2F4550;
+$background-clr: #F4F4F9;
+$light-gray: #586F7C;
+
+body {
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+  background-color: $background-clr;
+  // font-family: 'Arimo', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  // font-family: 'Poppins', sans-serif;
+  // font-family: 'Bitter', serif;
+}
+
+hr {
+  border: 1px solid $light-gray;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  min-height: 300px;
+  font-size: 18px;
+}
+
+.header-bar {
+  margin-bottom: 25px;
+  .header-name {
+    margin-bottom: 0px;
+  }
+}
+
+.contact {
+  text-align: left;
+  max-width: 500px;
+  border: solid 1px black;
+  margin: auto;
+}
+
+.contact-link:visited {
+  color: black
+}
+
+.contact-ul {
+  li {
+    list-style: none;
+  }
+}
+
+.footer-heading {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+footer{
+  a {
+    margin: 5px;
+  }
+  p {
+    margin: 0 0 15px 0;
+  }
+}
+
+.profile-image {
+  max-width: 150px;
+  max-height: 200px;
+  border-radius: 100px;
+}

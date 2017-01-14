@@ -1,0 +1,20 @@
+<div class="header-bar">
+  <h1 class="header-name">Brian Barrow</h1>
+  <hr>
+  {{#link-to "about" class="link" tagName="button"}}About{{/link-to}}
+  <!-- {{#link-to "contact" class="link" tagName="button"}}Contact{{/link-to}} -->
+  {{#link-to "portfolio" class="link" tagName="button"}}Portfolio{{/link-to}}
+</div>
+<main>
+  {{outlet}}
+</main>
+
+<hr>
+<footer>
+  <h4 class="footer-heading">Contact Me</h4>
+  <p>briancbarrow@gmail.com</p>
+  <a class="contact-link" target="_blank" href="https://github.com/briancbarrow">{{fa-icon "github" size="lg"}}</a>
+  {{!-- <a class="contact-link" target="_blank" href="https://www.freecodecamp.com/briancbarrow">{{fa-icon "free-code-camp" size="lg"}}</a> --}}
+  <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/barrowbrian">{{fa-icon "linkedin" size="lg"}}</a>
+  <a class="contact-link" target="_blank" href="https://twitter.com/the_BrianB">{{fa-icon "twitter" size="lg"}}</a>
+</footer>
