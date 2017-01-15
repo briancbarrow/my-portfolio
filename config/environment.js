@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'my-portfolio',
+    modulePrefix: 'ember-portfolio',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
