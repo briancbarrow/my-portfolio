@@ -1,1 +1,16 @@
-<p>Hello from portfolio</p>
+<h2>Projects</h2>
+<div id="projects">
+{{#each model as |project|}}
+  <a target="_blank" href={{project.link}} class="project">
+    <h4 class="project-name">{{project.name}}</h4>
+    <img class="project-image" src={{project.image}} alt="profile">
+    <div class="project-tech">
+      <ul>
+        {{#each project.tech as |tech|}}
+          <li class="tech">{{tech}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </a>
+{{/each}}
+</div>
